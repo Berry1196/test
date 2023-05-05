@@ -27,4 +27,5 @@ public class WorkoutDTO {
         workouts.forEach(workout -> workoutDTOs.add(new WorkoutDTO(workout)));
         return workoutDTOs;
     }
+
 }
